@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* header */
+
+        body {
+            margin: 0px;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10px 0px 10px 0px;
+        }
+
+        #header-img-div {
+            display: flex;
+            align-items: center;
+
+        }
+
+        #header-img>img {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+
+        #header-img-text {
+            margin-left: 20px;
+            color: darkblue;
+        }
+
+        #header-option-div {
+            display: flex;
+            align-items: center;
+        }
+
+        #header-option {
+            width: 300px;
+        }
+
+        #header-option>ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+        }
+
+        #header-button-div>button {
+            padding: 10px 20px 10px 20px;
+            background-color: mediumturquoise;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+
+        /* main-pic */
+
+        #main-img>img {
+            height: 450px;
+            width: 100%;
+        }
+
+        /* blur-bar */
+
+        #blue-bar-div {
+            height: 70px;
+            width: 100%;
+            margin-top: -4px;
+            background-color: mediumturquoise;
+        }
+
+        #blue-bar-option>ul {
+            display: flex;
+            margin: 0px;
+            padding-top: 25px;
+            font-weight: bold;
+            justify-content: space-evenly;
+            list-style: none;
+            color: white;
+        }
+
+        #blue-bar-option>ul>li>img {
+            height: 20px;
+            width: 20px;
+
+        }
+
+        /* learn-more-heading */
+
+        #learn-more-heading-div {
+            height: 50px;
+            width: 100%;
+            padding: 20px 0px 20px 0px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: 1px groove;
+
+        }
+
+        #learn-more-button-div>button {
+            padding: 10px 20px 10px 20px;
+            background-color: mediumturquoise;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+
+        /* 3-icons */
+        #first-icon-small-heading {
+            font-size: 10px;
+            color: gray;
+            padding: 10px 10px 20px 0px;
+        }
+
+        #icons-main-div {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #first-icon-div {
+            height: 320px;
+            width: 300px;
+            border: 1px groove;
+        }
+
+        #first-icon-img>img {
+            width: 100%;
+            height: 150px;
+        }
+
+        #first-icon-text-div {
+            padding: 20px;
+        }
+
+        #first-icon-heading {
+            color: mediumturquoise;
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+
+        #icon-small-heading-2 {
+            font-size: 10px;
+            color: gray;
+            padding: 10px 10px 20px 0px;
+        }
+
+        #first-icon-div-2 {
+            height: 320px;
+            width: 300px;
+            border: 1px groove;
+        }
+
+        #first-icon-img-2>img {
+            width: 100%;
+            height: 150px;
+        }
+
+        #first-icon-text-div-2 {
+            padding: 20px;
+        }
+
+        #first-icon-heading-2 {
+            color: mediumturquoise;
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+
+        #icon-small-heading-3 {
+            font-size: 10px;
+            color: gray;
+            padding: 10px 10px 20px 0px;
+        }
+
+        #first-icon-div-3 {
+            height: 320px;
+            width: 300px;
+            border: 1px groove;
+        }
+
+        #first-icon-img-3>img {
+            width: 100%;
+            height: 150px;
+        }
+
+        #first-icon-text-div-3 {
+            padding: 20px;
+        }
+
+        #first-icon-heading-3 {
+            color: mediumturquoise;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* footers */
+        #footer {
+            width: 100%;
+            height: 350px;
+            margin-top: 30px;
+            background-color: lightgrey;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #footer-img {
+            height: 350px;
+            width: 55%;
+        }
+
+        #footer-img>img {
+            height: 350px;
+            width: 100%;
+
+        }
+        #footer-text{
+            width: 45%;
+            padding: 20px 20px 20px 35px;
+        }
+        #footer-heading{
+            color: mediumturquoise;
+            font-weight: bold;
+            text-align: left;
+            font-size: 30px;
+        }
+        #footer-description{
+            padding-top: 15px;
+        }
+        #footer-button-div>button{
+            margin-top: 20px;
+            padding: 10px 20px 10px 20px;
+            background-color: mediumturquoise;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+
+        /* bottom-blue */
+
+        #bottom-blue{
+            height: 100px;
+            width: 100%;
+            background-color: mediumturquoise;
+        }
+        #bottom-blue-text{
+            padding-top: 30px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        #bottom-blue-description{
+            padding-top: 5px;
+            color: white;
+            font-size: 17px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main-div">
+
+        <!-- Header -->
+
+        <header id="header">
+
+            <div id="header-img-div">
+                <div id="header-img">
+                    <img src="./pictures/maries-oil-color-prussian-blue-445-50ml.jpg" alt="">
+                </div>
+                <div id="header-img-text">
+                    <h2>FINANCIAL INSTITUTION</h2>
+                </div>
+
+            </div>
+
+            <div id="header-option-div">
+                <div id="header-option">
+                    <ul>
+                        <li>Nav Item</li>
+                        <li>Nav Item</li>
+                        <li>Nav Item</li>
+                    </ul>
+                </div>
+                <div id="header-button-div">
+                    <button> LOGIN </button>
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- main-pic -->
+
+        <div id="main-img-div">
+            <div id="main-img">
+                <img src="./pictures/img.jpg" alt="">
+            </div>
+
+        </div>
+
+        <!-- blue-bar -->
+
+        <div id="blue-bar-div">
+
+            <div id="blue-bar-option">
+                <ul>
+                    <li> <img src="./pictures/checkmark-for-verification.png" alt=""> Nav Item</li>
+                    <li> <img src="./pictures/checkmark-for-verification.png" alt=""> Nav Item</li>
+                    <li> <img src="./pictures/checkmark-for-verification.png" alt=""> Nav Item</li>
+                    <li> <img src="./pictures/checkmark-for-verification.png" alt=""> Nav Item</li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- learn-more-heading -->
+
+        <div id="learn-more-heading-div">
+            <div id="leaarn-more-heading">
+                <h2>Mortage Rates as low as 3.995%</h2>
+            </div>
+            <div id="learn-more-button-div">
+                <button>Learn More</button>
+            </div>
+        </div>
+
+        <!-- 3-icons -->
+
+        <div id="icons-main-div">
+            <div id="first-icon-div">
+                <div id="first-icon-img">
+                    <img src="./pictures/download.jpg" alt="">
+                </div>
+                <div id="first-icon-text-div">
+                    <div id="first-icon-small-heading">
+                        PROMOTION
+                    </div>
+                    <div id="first-icon-heading">
+                        Heading Here
+                    </div>
+                    <div id="first-icon-text">
+                        aaaaaa vv vv sdsd sdasf sfasv
+                        sdsd dff fsds dsdsd csc sd rer
+                        dasd fasf wd cc awdw cadwd daw
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="icons-main-div-2">
+                <div id="first-icon-div-2">
+                    <div id="first-icon-img-2">
+                        <img src="./pictures/images (1).jpg" alt="">
+                    </div>
+                    <div id="first-icon-text-div-2">
+                        <div id="icon-small-heading-2">
+                            PROMOTION
+                        </div>
+                        <div id="first-icon-heading-2">
+                            Heading Here
+                        </div>
+                        <div id="first-icon-text-2">
+                            aaaaaa vv vv sdsd sdasf sfasv
+                            sdsd dff fsds dsdsd csc sd rer
+                            dasd fasf wd cc awdw cadwd daw
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="icons-main-div-3">
+                <div id="first-icon-div-3">
+                    <div id="first-icon-img-3">
+                        <img src="./pictures/images.jpg" alt="">
+                    </div>
+                    <div id="first-icon-text-div-3">
+                        <div id="icon-small-heading-3">
+                            PROMOTION
+                        </div>
+                        <div id="first-icon-heading-3">
+                            Heading Here
+                        </div>
+                        <div id="first-icon-text-3">
+                            aaaaaa vv vv sdsd sdasf sfasv
+                            sdsd dff fsds dsdsd csc sd rer
+                            dasd fasf wd cc awdw cadwd daw
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div id="footer-img">
+                <img src="./pictures/images (2).jpg" alt="">
+            </div>
+
+            <div id="footer-text">
+                <div id="footer-heading">
+                    Membership
+                </div>
+                <div id="footer-description">
+                    dasd dsfa ff adw dasd dsd wq qwdqwd 
+                    dasd fsf wdq dsda cxca wdaw dqdc qwd 
+                    qwdd ds ww ddsd ff wdw qwd dasd wdqq
+                    dasd dsfa ff adw dasd dsd wq qwdqwd 
+                    dasd fsf wdq dsda cxca wdaw dqdc qwd 
+                    qwdd ds ww ddsd ff wdw qwd dasd wdqq
+                </div>
+                <div id="footer-button-div">
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- blue-bottom-border -->
+
+        <div id="bottom-blue">
+            <div id="bottom-blue-text">
+                CONTACT BAND
+            </div>
+            <div id="bottom-blue-description">
+                Contact & Social Media Information
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

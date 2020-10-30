@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+}
+
+/* header */
+
+#main_div{
+    width: 100%;
+    height: auto;
+}
+#header_main_div{
+    width: 100%;
+    height: auto;
+}
+#header_logo_div{
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 70px 20px 70px;
+}
+#logo{
+    height: 80px;
+    width: 200px;
+}
+#logo>img{
+height: 100%;
+width: 100%;
+}
+#header_logo_data_div{
+    height: 70px;
+    width: 370px;
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    text-align: left;
+}
+.header_logo_data{
+    width: 50%;
+    padding: 20px 20px 20px 20px ;
+}
+#header_logo_data_button{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+#header_logo_data_button>button>img{
+height: 15px;
+width: 15px;
+
+}
+#header_logo_data_button>button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border-color: blue;
+}
+.header_logo_data>:first-child{
+    color: grey;
+    font-size: 12px;
+    margin-right: 40px;
+}
+.header_logo_data>:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* navbar */
+
+#navbar{
+    height: auto;
+    background-color: green;
+}
+#navbar>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+#navbar>ul>li{
+    list-style: none;
+    width: 140px;
+    color: white;
+    position: relative;
+}
+#navbar>ul>li>img{
+    height: 15px;
+    width: 15px;
+    padding-left: 5px;
+}
+#search{
+    background-color: limegreen;
+    padding: 22px;
+    color: white;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+
+/* main_img */
+
+#main_img{
+    height: 80vh;
+    width: 100%;
+}
+#main_img>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* box_mian_div */
+
+#box_main_div{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -28px;
+}
+#box_main_div>img{
+    height: 100%;
+}
+.box{
+    position: relative;
+}
+.box_icon{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: -6px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.box_icon>img{
+    height: 100%;
+    width: 100%;
+}

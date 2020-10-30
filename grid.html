@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{margin: 0px;}
+        
+        #parent{
+            display: grid;
+            grid-template-columns: 4;
+            grid-template-rows: 3;
+            width:100vw;
+            height: 100vh;
+            grid-template:  "a1 a2 a2 a3"
+                            "a1 a4 a4 a3"
+                            "a5 a5 a5 a5"
+        }
+        
+        #a {
+            grid-area: a1;
+            background-color: green;
+            margin: 5px;
+        }
+
+        #b {
+            grid-area: a2;
+            background-color: blue;
+            margin: 5px;
+
+        }
+
+        #c {
+            grid-area: a3;
+            background-color: green;
+            margin: 5px;
+
+          
+        }
+
+        #d {
+            grid-area: a4;
+            background-color: blue;
+            margin: 5px;
+
+
+        }
+        #e {
+            grid-area: a5;
+            background-color:purple;
+            margin: 5px;
+
+
+        }
+ 
+    </style>
+</head>
+<body>
+
+    <div id="parent">
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+        <div id="e"></div>
+    
+    </div>
+    
+</body>
+</html>
